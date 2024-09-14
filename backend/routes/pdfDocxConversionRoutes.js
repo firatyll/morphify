@@ -21,6 +21,6 @@ router.post('/pptx-to-pdf',  upload.single('file'), (err, req, res, next) => {
         }
     }
     next(err); 
-}, validateFile , conversionController.docxToPdf);
+}, validateFile , conversionController.pptxToPdf);
 
 module.exports = router;

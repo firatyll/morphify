@@ -32,6 +32,17 @@ const Options = () => {
                     <hr />
                     <div className="row mb-2 p-2">
                         <div className="col-md-6">
+                            <img src="/images/xlsx_to_pdf.png" alt="option" className="img-fluid" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2>XLSX to PDF</h2>
+                            <p>Convert your PPTX documents to PDF format</p>
+                            <Link to="/xlsx-to-pdf" className="btn btn-primary">Convert</Link>
+                        </div>
+                    </div>
+                    <hr />
+                    <div className="row mb-2 p-2">
+                        <div className="col-md-6">
                             <img src="/images/pdf_to_word.png" alt="option" className="img-fluid" />
                         </div>
                         <div className="col-md-6">

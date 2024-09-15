@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import WordToPdf from './pages/WordToPdf';
 import PptxToPdf from './pages/PptxToPdf';
 import NotFound from './pages/NotFound';
+import XlsxToPdf from './pages/XlsxToPdf';
 
 function App() {
 
@@ -25,6 +26,10 @@ function App() {
         {
           path: '/pptx-to-pdf',
           element: <PptxToPdf />
+        },
+        {
+          path: '/xlsx-to-pdf',
+          element: <XlsxToPdf />
         },
         {
           path:'*',
